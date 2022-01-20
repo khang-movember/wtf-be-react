@@ -4,9 +4,13 @@ export const App = () => {
   return (
     <>
     <div>
-      Hello World
+      Hello World {3 + 5}
     </div>
-    <Child />
+    <Child 
+      text={'This be child'}
+      someNumber={3}
+      bool={true}
+    />
     </>
   );
 }
