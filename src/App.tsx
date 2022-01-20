@@ -1,4 +1,4 @@
-import { Child } from '../src/Components/Child';
+import { Child } from '../src/Components/Child/Child';
 
 export const App = () => {
   return (
